@@ -1,0 +1,112 @@
+    @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&display=swap");
+    body {
+        font-family: "Source Code Pro", monospace;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    header {
+        position: fixed;
+        display: flex;
+        min-height: 100px;
+        padding: 0px 20px;
+        justify-content: space-around;
+        align-items: center;
+        top: 0;
+        list-style: none;
+        /*text-decoration: none (dontdoititsnicebutkeepit)*/
+    }
+    
+    #header-img {
+        margin-top: 15px;
+        width: 250px;
+        position: relative;
+    }
+    
+    header .navbar {
+        font-size: medium;
+        font-weight: bold;
+        list-style: none;
+        margin-top: 10px;
+    }
+    
+    header strong {
+        color: blue;
+        font-size: 10px;
+        padding-top: 15px;
+    }
+    
+    .form {
+        margin-top: 150px;
+        text-align: center;
+    }
+    
+    .form h3 {
+        font-size: 16px;
+        color: black;
+    }
+    
+    .form .btn {
+        background: blue;
+        color: black;
+    }
+    
+    .form .btn:hover {
+        color: white;
+    }
+    
+    .form .data {
+        font-size: 15px;
+    }
+    
+    #video {
+        width: 500px;
+        margin-top: 20px;
+    }
+    
+    .features-part1 {
+        margin-top: 15px;
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .features-part1 h2,
+    .features-part2 h2,
+    .features-part3 h2 {
+        color: black;
+        font-size: 20px;
+    }
+    
+    .features-part1 h2 i,
+    .features-part2 h2 i,
+    .features-part3 h2 i {
+        color: blue;
+        font-size: 28px;
+    }
+    
+    .features-part2 {
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .features-part3 {
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    footer {
+        border-top: 1px solid blue;
+        margin-top: 30px;
+        padding: 20px;
+        font-size: 10px;
+    }
